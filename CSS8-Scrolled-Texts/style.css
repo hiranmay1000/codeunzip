@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-1, .page-2{
+    width: 100%;
+    height: 100vh;
+}
+
+.page-1 h1, .page-2 h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100vh;
+}
+
+.page-1 h1{
+    color: #111;
+}
+
+.page-2{
+    color: #ccc;
+    background-color: #fff;
+}
+
+.screen-container{
+    width: 1000px;
+    height: 600px;
+    border: 20px solid #c4ffff;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.moving-text{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    animation: scrolledText 7s linear infinite;
+}
+
+h2{
+    color: #e1a1ff;
+}
+
+@keyframes scrolledText{
+    0%{
+        top: 100%;
+    }100%{
+        top: -100%;
+    }
+}
