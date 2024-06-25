@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+    margin: 0;
+}
+
+.neomorph-btn{
+    background-color: #e0e0e0;
+    border-radius: 30px;
+    box-shadow: 7px 7px 15px
+    #bebebe, -7px -7px 15px
+    #ffffff;
+    color: #006c97;
+    font-size: 13px;
+    font-family: poppins;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.1s ease;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin: 0 10px;
+}
+
+
+.neomorph-btn:hover{
+    box-shadow: inset 7px 7px 15px #bebebe,
+    inset -7px -7px 15px #ffffff;
+}
+
+.neomorph-btn:active{
+    box-shadow: inset 3px 3px 6px #bebebe, 
+    inset -3px -3px 6px #ffffff;
+    color: #b45a5a
+}
